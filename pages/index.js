@@ -1,5 +1,11 @@
-import Head from "next/head";
+import Header from "../components/shared/Header";
+import { useState, useEffect } from "react";
 
 export default function Home() {
-  return <h1>Ciao! Questo è un progetto Next su CodeSandbox</h1>;
+  return (
+    <>
+      <Header />
+      <h1>I am Homepage</h1>
+    </>
+  );
 }
