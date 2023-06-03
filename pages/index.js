@@ -1,11 +1,10 @@
-import Header from "../components/shared/Header";
+import BaseLayout from "../components/layouts/BaseLayout";
 import { useState, useEffect } from "react";
 
 export default function Home() {
   return (
-    <>
-      <Header />
+    <BaseLayout>
       <h1>I am Homepage</h1>
-    </>
+    </BaseLayout>
   );
 }

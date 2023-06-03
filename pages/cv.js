@@ -1,12 +1,11 @@
-import Header from "../components/shared/Header";
+import BaseLayout from "../components/layouts/BaseLayout";
 import { useState, useEffect } from "react";
 
 const CV = () => {
   return (
-    <>
-      <Header />
+    <BaseLayout>
       <h1>I am CV page</h1>
-    </>
+    </BaseLayout>
   );
 };
 
